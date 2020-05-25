@@ -1,0 +1,84 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.6rem Helvetica;
+  height: 100vh;
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 5rem;
+  height: 100%;
+}
+
+.header {
+  grid-area: header;
+  background-color: antiquewhite;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.brand a {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: aliceblue;
+  text-decoration: none;
+}
+.main {
+  grid-area: main;
+}
+.footer {
+  grid-area: footer;
+  background-color: aliceblue;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-links a {
+  color: orange;
+  text-decoration: none;
+}
+.header-links a:hover {
+  color: black;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products li {
+  list-style-type: none;
+  padding: 0;
+  flex: 0 1 34rem;
+  margin: 1rem;
+  height: 40rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+.product-name {
+  font-size: 2rem sans-serif;
+}
+.product-brand {
+  font-size: 1.2rem;
+  color: #888888;
+}
+.product-price {
+  font-size: 2.5rem bold;
+}
+.product-image {
+  max-width: 34rem;
+  max-height: 34rem;
+}
