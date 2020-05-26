@@ -8,7 +8,12 @@ function ProductScreen(props) {
       <div>
         <Link to="/">Back</Link>
       </div>
-      <div className="details"></div>
+      <div className="details">
+        <div className="details-image">
+          <img src={product.image} alt="product-image"></img>
+        </div>
+        <div className="details-info"></div>
+      </div>
     </div>
   );
 }
