@@ -172,3 +172,19 @@ a:hover {
 .back-to-result {
   padding: 1rem;
 }
+.details-action ul li:last-child {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  padding: 1rem;
+  border: 0.1rem #808080 solid;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+.button:hover {
+  border: 0.1rem #404040 solid;
+}
+.button.primary {
+  background-color: aqua;
+}
