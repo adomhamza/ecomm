@@ -21,7 +21,7 @@ function ProductScreen(props) {
               {product.rating} Stars {product.numReviews}
             </li>
             <li>
-              Price:&#8373;<b>{product.price}</b>
+              Price:&#8373; <b>{product.price}</b>
             </li>
             <li>
               Description

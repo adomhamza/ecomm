@@ -9,6 +9,7 @@ export default {
       brand: " Nike",
       rating: 4.5,
       numReviews: 10,
+      description: "Lorem ipsum dndjh nzvgs  gszcvyk",
     },
     {
       _id: "2",
@@ -19,6 +20,7 @@ export default {
       brand: " Nike",
       rating: 4.2,
       numReviews: 5,
+      description: "Lorem ipsum dndjh nzvgs  gszcvyk",
     },
     {
       _id: "3",
@@ -29,6 +31,7 @@ export default {
       brand: " Nike",
       rating: 4.5,
       numReviews: 8,
+      description: "Lorem ipsum dndjh nzvgs  gszcvyk",
     },
     {
       _id: "4",
@@ -39,6 +42,7 @@ export default {
       brand: " Nike",
       rating: 4.5,
       numReviews: 8,
+      description: "Lorem ipsum dndjh nzvgs  gszcvyk",
     },
   ],
 };
